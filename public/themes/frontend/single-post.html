@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Single-post</title>
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link href="libs/css/fontawesome-all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="libs/css/slick.css">
+    <link rel="stylesheet" href="libs/css/slick-theme.css">
+    <link rel="stylesheet" href="libs/css/sina-nav.css">
+</head>
+
+
+
+<body>
+
+    <header>
+
+        <div class="top-bar">
+            <div class="container">
+                <div class="row  ">
+
+                    <div class="col-lg-3  col-sm-5  currensy">
+                        <img src="img/Bitcoin.svg.png" alt="">
+                        <div class="currensy-name">
+                            <p class="valuta">bitcoin</p>
+                            <p class="currency-number">$3,409.09</p>
+                            <i class="fa fa-caret-down">2.33%</i>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-5   currensy">
+                        <img src="img/2000px-Ethereum_logo_2014.svg.png" alt="">
+                        <div class="currensy-name">
+                            <p class="valuta"> ethereum</p>
+                            <p class="currency-number">$104.49</p>
+                            <i class="fa fa-caret-up">3.93%</i>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-5   currensy">
+                        <img src="img/zcash.svg.png" alt="">
+                        <div class="currensy-name">
+                            <p class="valuta">zchash</p>
+                            <p class="currency-number">$47.97</p>
+                            <i class="fa fa-caret-down">4.5%</i>
+                        </div>
+                    </div>
+                    <div class="col-lg-2  col-sm-5  currensy">
+                        <img src="img/ripple.svg.png" alt="">
+                        <div class="currensy-name">
+                            <p class="valuta"> ripple</p>
+                            <p class="currency-number">0.29</p>
+                            <i class="fa ">0.00</i>
+                        </div>
+                    </div>
+                    <div class="col-lg-1  col-sm-2 col-3">
+                        <div class="btn-group">
+                            <input type="text" name="lang" id="langValue" class="btn  dropdown-toggle dropdown-toggle-split"
+                                id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                data-reference="parent">
+                            <!-- <input type="button" class="btn btn-secondary"></input> -->
+                            <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" id="dropLang" aria-labelledby="dropdownMenuReference">
+                                <li>
+                                    <a class="dropdown-item" href="#">Uz</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Ru</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">En</a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                 
+                </div>
+
+            </div>
+        </div>
+
+        <nav class="sina-nav mobile-sidebar navbar-fixed" data-top="60">
+            <div class="container">
+
+                <div class="search-box">
+                    <form role="search" method="get" action="#">
+                        <span class="search-addon close-search"><i class="fa fa-times"></i></span>
+                        <div class="search-input">
+                            <input type="search" class="form-control" placeholder="Search here" value="" name="">
+                        </div>
+                        <span class="search-addon search-icon"><i class="fa fa-search"></i></span>
+                    </form>
+                </div><!-- .search-box -->
+
+                <div class="extension-nav">
+                    <ul>
+                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div><!-- .extension-nav -->
+
+                <div class="sina-nav-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="sina-brand" href="#">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </div><!-- .sina-nav-header -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+
+                    <ul class="sina-menu sina-menu-center" data-in="fadeInLeft" data-out="fadeInOut">
+                        <div class="d-none">
+                            <ul class="" id="dropLang" aria-labelledby="dropdownMenuReference">
+                                <li>
+                                    <a class="dropdown-item" href="#">Uz</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Ru</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">En</a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <li><a href="#home">Новости</a></li>
+                        <li><a href="#about">Эксклюзив</a></li>
+                        <li><a href="#blog">Карточки</a></li>
+                        <li><a href="#contact"> События</a></li>
+                        <li><a href="#home">Fun</a></li>
+                        <li><a href="#about">Спецпроекты</a></li>
+                        <li><a href="#blog">Криптобизнес</a></li>
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- .container -->
+        </nav>
+    </header>
+
+
+
+    <div class="content p-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="news-post">
+                        <div class="post-title">
+                            <h3>
+                                Новый криптообменник открывается на Каймановых островах
+                            </h3>
+                            <div class="post-info">
+                                <div class="post-tags">
+                                    <a href="#" class="news-events">Новости</a>
+                                    <p class="news-date"><i class="fal fa-clock"></i> 29.01.2019</p>
+                                    <p class="eye"><i class="fa fa-eye"></i>412</p>
+                                </div>
+                                <ul class="footer-social">
+                                    <div>
+                                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                    </div>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-odnoklassniki"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="post-img">
+                            <img src="img/post-img.png" alt="">
+                        </div>
+                        <div class="post-body">
+                            <h3 class="post-h3">
+                                Представители Cayman Islands Investment Group (CIIG) объявили о разработке и скором
+                                запуске новой криптовалютной торговой платформы, расположенной на Каймановых островах.
+                            </h3>
+                            <p class="post-text">
+                                Результаты недавних опросов показали, что многие трейдеры считают наличие доступа к
+                                обменнику CIIG довольно выгодным. Команда разработчиков торговой платформы обещает
+                                предоставить своим пользователям простой и интуитивно понятный интерфейс.
+                                Обменник CIIG - далеко не единственный криптовалютный проект на Каймановых островах,
+                                которые давно стали одним из центров финансовой и блокчейн индустрий. На островах также
+                                инкорпорирована компания Block.one, которая разрабатывает платформу EOS.
+                                Согласно заявлениям создателей платформы, они будут использовать те же меры связанные с
+                                безопасностью, контролем и выполнением требований, что и финансовые компании сектора.
+                                Изначально пользователи платформы смогут торговать такими активами, как Bitcoin,
+                                Ethereum, Ripple и Monero. Ожидается, что обменник CIIG будет запущен в первом квартале
+                                2019 года, а стадия бета тестирования начнется уже на днях.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tag">
+                        <h2 class="block_name">Таг</h2>
+                        <ul class="tag_list">
+                            <li class="tag_li"><a href="#" class="tag_link"><span>#</span> BitConnect</a></li>
+                            <li class="tag_li"><a href="#" class="tag_link"><span>#</span> коллективный иск</a></li>
+                            <li class="tag_li"><a href="#" class="tag_link"><span>#</span> суд</a></li>
+                            <li class="tag_li"><a href="#" class="tag_link"><span>#</span> схема Понци</a></li>
+                        </ul>
+                    </div>
+                    <div class="similar-news">
+                        <div class="similar-title">
+                            <h3>
+                                Похожие новости
+                            </h3>
+                        </div>
+                        <div class="row similar-row">
+
+                            <div class="similar-col col-md-6">
+                                <div class="news-img">
+                                    <img src="img/sidebar-news-img1.png" alt="">
+                                </div>
+                                <div class="news-body">
+                                    <a href="#" class="news-title">
+                                        Инсайд: Samsung Galaxy S10 выйдет со встроенным криптокошельком
+                                    </a>
+                                    <div class="item-tags">
+                                        <a href="#" class="news-events">Новости</a>
+                                        <p class="eye"><i class="fa fa-eye"></i>412</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="similar-col col-md-6">
+                                <div class="news-img">
+                                    <img src="img/sidebar-news-img2.png" alt="">
+                                </div>
+                                <div class="news-body">
+                                    <a href="#" class="news-title">
+                                        BitTorrent объявляет BTT Airdrops для держателей TRX
+                                    </a>
+                                    <div class="item-tags">
+                                        <a href="#" class="news-events">Новости</a>
+                                        <p class="eye"><i class="fa fa-eye"></i>412</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="similar-col col-md-6">
+                                <div class="news-img">
+                                    <img src="img/sidebar-news-img3.png" alt="">
+                                </div>
+                                <div class="news-body">
+                                    <a href="#" class="news-title">
+                                        Самопровозглашенный президент Венесуэлы похоронит Petro
+                                    </a>
+                                    <div class="item-tags">
+                                        <a href="#" class="news-events">Новости</a>
+                                        <p class="eye"><i class="fa fa-eye"></i>412</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="similar-col col-md-6">
+                                <div class="news-img">
+                                    <img src="img/sidebar-news-img4.png" alt="">
+                                </div>
+                                <div class="news-body">
+                                    <a href="#" class="news-title">
+                                        Криптобиржи Южной Кореи объединяют усилия в борьбе с отмыванием денег
+                                    </a>
+                                    <div class="item-tags">
+                                        <a href="#" class="news-events">Новости</a>
+                                        <p class="eye"><i class="fa fa-eye"></i>412</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="similar-col col-md-6">
+                                <div class="news-img">
+                                    <img src="img/sidebar-news-img5.png" alt="">
+                                </div>
+                                <div class="news-body">
+                                    <a href="#" class="news-title">
+                                        Nasdaq инвестирует в запуск корпоративного блокчейна Symbiont
+                                    </a>
+                                    <div class="item-tags">
+                                        <a href="#" class="news-events">Новости</a>
+                                        <p class="eye"><i class="fa fa-eye"></i>412</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="similar-col col-md-6">
+                                <div class="news-img">
+                                    <img src="img/sidebar-news-img6.png" alt="">
+                                </div>
+                                <div class="news-body">
+                                    <a href="#" class="news-title">
+                                        Опытные криптографы помогают полиции в поисках средств Cryptopia
+                                    </a>
+                                    <div class="item-tags">
+                                        <a href="#" class="news-events">Новости</a>
+                                        <p class="eye"><i class="fa fa-eye"></i>412</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <aside class="sidebar ">
+                        <div class="row">
+                            <div class="currency col-lg-12">
+                                <div class="currensy-row ">
+
+                                    <div class="currensy-col">
+                                        <img src="img/Bitcoin.svg.png" alt="">
+                                        <div class="currensy">
+                                            <p class="currensy-name"> bitcoin</p>
+
+                                            <span class="currency-number">$3,409.09</span>
+                                            <i class="fa fa-caret-down">2.33%</i>
+                                        </div>
+                                    </div>
+
+                                    <div class="currensy-col">
+                                        <img src="img/2000px-Ethereum_logo_2014.svg.png" alt="">
+                                        <div class="currensy">
+                                            <p class="currensy-name">
+                                                ethereum
+                                            </p>
+
+                                            <span class="currency-number">$104.49</span>
+                                            <i class="fa fa-caret-up">3.93%</i>
+                                        </div>
+                                    </div>
+
+                                    <div class=" currensy-col">
+                                        <img src="img/zcash.svg.png" alt="">
+                                        <div class="currensy">
+                                            <p class="currensy-name">zchash</p>
+                                            <span class="currency-number">$47.97</span>
+                                            <i class="fa fa-caret-down">4.5%</i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="converter-row  ">
+                                    <div class="converter-col ">
+
+                                        <input type="text" class="form-control" placeholder="1">
+                                        <div class="form-group">
+                                            <select>
+                                                <option>Bitcoin</option>
+                                                <option>Ethereum</option>
+                                                <option>Zcash</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="converter-col ">
+
+                                        <input type="text" class="form-control" placeholder="1">
+                                        <div class="form-group">
+                                            <select>
+                                                <option>Ethereum</option>
+                                                <option>Bitcoin</option>
+                                                <option>Zcash</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="email-row col-lg-12">
+                                <form>
+                                    <div class="sidebar-title">
+                                        <h3>Подпишитесь на рассылку</h3>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Получайте свежие новости на свой почтовый ящик</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Введите свой E-mail">
+                                    </div>
+
+                                    <button class="send-btn">Получать рассылку</button>
+                                </form>
+                            </div>
+
+                            <div class="sidebar-news-row col-lg-12">
+                                <div class="sidebar-title col-lg-12
+                                        ">
+                                    <h3>Самые просматриваемые</h3>
+                                </div>
+                                <div class="sidebar-news-col">
+                                    <div class="news-img">
+                                        <img src="img/sidebar-news-img1.png" alt="">
+                                    </div>
+                                    <div class="news-body">
+                                        <a href="#" class="news-title">
+                                            Инсайд: Samsung Galaxy S10 выйдет со встроенным криптокошельком
+                                        </a>
+                                        <div class="item-tags">
+                                            <a href="#" class="news-events">Новости</a>
+                                            <p class="eye"><i class="fa fa-eye"></i>412</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sidebar-news-col">
+                                    <div class="news-img">
+                                        <img src="img/sidebar-news-img2.png" alt="">
+                                    </div>
+                                    <div class="news-body">
+                                        <a href="#" class="news-title">
+                                            Самопровозглашенный президент Венесуэлы похоронит Petro
+                                        </a>
+                                        <div class="item-tags">
+                                            <a href="#" class="news-events">Аналитика</a>
+                                            <p class="eye"><i class="fa fa-eye"></i>412</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sidebar-news-col">
+                                    <div class="news-img">
+                                        <img src="img/sidebar-news-img3.png" alt="">
+                                    </div>
+                                    <div class="news-body">
+                                        <a href="#" class="news-title">
+                                            Nasdaq инвестирует в запуск корпоративного блокчейна Symbiont
+                                        </a>
+                                        <div class="item-tags">
+                                            <a href="#" class="news-events">Новости</a>
+                                            <p class="eye"><i class="fa fa-eye"></i>412</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sidebar-news-col">
+                                    <div class="news-img">
+                                        <img src="img/sidebar-news-img4.png" alt="">
+                                    </div>
+                                    <div class="news-body">
+                                        <a href="#" class="news-title">
+                                            BitTorrent объявляет BTT Airdrops для держателей TRX
+                                        </a>
+                                        <div class="item-tags">
+                                            <a href="#" class="news-events">Новости</a>
+                                            <p class="eye"><i class="fa fa-eye"></i>412</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sidebar-news-col">
+                                    <div class="news-img">
+                                        <img src="img/sidebar-news-img5.png" alt="">
+                                    </div>
+                                    <div class="news-body">
+                                        <a href="#" class="news-title">
+                                            Криптобиржи Южной Кореи объединяют усилия в борьбе с отмыванием денег
+                                        </a>
+                                        <div class="item-tags">
+                                            <a href="#" class="news-events">Новости</a>
+                                            <p class="eye"><i class="fa fa-eye"></i>412</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sidebar-news-col">
+                                    <div class="news-img">
+                                        <img src="img/sidebar-news-img6.png" alt="">
+                                    </div>
+                                    <div class="news-body">
+                                        <a href="#" class="news-title">
+                                            Опытные криптографы помогают полиции в поисках средств Cryptopia
+                                        </a>
+                                        <div class="item-tags">
+                                            <a href="#" class="news-events">Новости</a>
+                                            <p class="eye"><i class="fa fa-eye"></i>412</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-social col-lg-12">
+                                <div class="sidebar-title">
+                                    <h3>
+                                        Мы в соцсетях
+                                    </h3>
+                                </div>
+                                <div class="social">
+                                    <a href="#" class="social-item">
+                                        <div class="social-logo">
+                                            <img src="img/facebook.png" alt="">
+                                        </div>
+                                        <div class="social-count">
+                                            <p>
+                                                3 569 подписчиков
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="social-item">
+                                        <div class="social-logo">
+                                            <img src="img/instagram.png" alt="">
+                                        </div>
+                                        <div class="social-count">
+                                            <p>
+                                                4 569 подписчиков
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="social-item">
+                                        <div class="social-logo">
+                                            <img src="img/telegram.png" alt="">
+                                        </div>
+                                        <div class="social-count">
+                                            <p>
+                                                4 559 подписчиков
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="social-item">
+                                        <div class="social-logo">
+                                            <img src="img/ok.png" alt="">
+                                        </div>
+                                        <div class="social-count">
+                                            <p>
+                                                4 559 подписчиков
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+
+                <div class="footer-item">
+                    <img src="img/footer-logo.png" alt="">
+                </div>
+
+                <div class="footer-item">
+                    <ul class="footer-nav">
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Эксклюзив</a></li>
+                        <li><a href="#">Карточки</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <ul class="footer-nav">
+                        <li><a href="#">События</a></li>
+                        <li><a href="#">Спецпроекты</a></li>
+                        <li><a href="#">Криптобизнес</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <p>
+                        Присоединяйтесь
+                        к нам в соцсетях:
+                    </p>
+                    <ul class="footer-social">
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-telegram"></i></a></li>
+						<li><a href="#"><i class="fab fa-odnoklassniki"></i></a></li>
+					</ul>
+
+                </div>
+
+                <div class="footer-item">
+                    <p> <i class="fa fa-envelope"></i> Если у вас есть вопросы по сотрудничеству,
+                        или новые интересные предложения,
+                        пишите нам на <a href="#">contact@okschainnews.com</a></p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="libs/js/jquery.min.js"></script>
+    <script src="libs/js/popper.js"></script>
+    <script src="libs/js/bootstrap.js"></script>
+    <script src="libs/js/sina-nav.js"></script>
+    <script src="libs/js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
